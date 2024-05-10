@@ -1,0 +1,5 @@
+requests
+langchain-openai
+langchain
+streamlit==1.32.2
+python-dotenv

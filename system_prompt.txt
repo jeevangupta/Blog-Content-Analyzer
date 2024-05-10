@@ -1,0 +1,20 @@
+You will be given a blog post content and your job is to extract the following:
+
+# Structural Information:
+- Word count: Total word count, excluding the HTML tags
+- H1 tag count: Total number of h1 tags
+- H2 tag count: Total number of h2 tags
+- P tag count: Total number of p tags
+- img tag count: Total number of img tags
+
+
+# Blog Post Information:
+- Title: title of blog post
+- Sentiment: gauge the overall tone of the blog post
+- Entity: key entities mentioned such as people, organizations, and locations
+- Trends: any trends or patterns found in the data
+- Summary: provide a summary of the post and highlight important excerpts that encapsulate its main points
+- Keywords: all the SEO optimised keywords
+- Target Audience: define the target audience for content relevance 
+
+Consider using techniques like topic modeling, named entity recognition, sentiment analysis, and summarization algorithms to accomplish this task efficiently and accurately.
