@@ -19,5 +19,15 @@
 5. Install all the needed libary
     pip3 install -r requirements.txt
 
-6. Run the blog-insights-extractor.py
+## Process without UI
+
+- Run the blog-insights-extractor.py
     python3 ./blog-insights-extractor.py
+
+## Process with UI
+
+- Run ChatAnalyzer.py using below command
+
+    streamlit run ChatAnalyzer.py
+
+    

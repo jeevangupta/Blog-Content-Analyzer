@@ -1,5 +1,7 @@
 requests
-langchain-openai
-langchain
+langchain-openai==0.1.6
+langchain-core==0.1.52
+langchain==0.1.19
 streamlit==1.32.2
-python-dotenv
+python-dotenv==1.0.1
+streamlit-extras
