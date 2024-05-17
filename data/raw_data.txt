@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+<title>Python Tuples Tutorial - Python Tuples Interview Example</title>
+<meta name="description" content="Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions." />
+<link rel="canonical" href="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Python Tuples Tutorial - Python Tuples Interview Example" />
+<meta property="og:description" content="Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions." />
+<meta property="og:url" content="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/" />
+<meta property="og:site_name" content="JeevanGupta" />
+<meta property="article:published_time" content="2022-08-12T18:23:07+00:00" />
+<meta property="article:modified_time" content="2023-07-23T10:30:29+00:00" />
+<meta property="og:image" content="https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png" />
+<meta property="og:image:width" content="1664" />
+<meta property="og:image:height" content="1180" />
+<meta property="og:image:type" content="image/png" />
+<meta name="author" content="Jeevan Gupta" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Jeevan Gupta" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="8 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/","url":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/","name":"Python Tuples Tutorial - Python Tuples Interview Example","isPartOf":{"@id":"https://jeevangupta.com/#website"},"primaryImageOfPage":{"@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage"},"image":{"@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage"},"thumbnailUrl":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","datePublished":"2022-08-12T18:23:07+00:00","dateModified":"2023-07-23T10:30:29+00:00","author":{"@id":"https://jeevangupta.com/#/schema/person/9a4452b34dbe59be55b345b6b6f865b8"},"description":"Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions.","inLanguage":"en","potentialAction":[{"@type":"ReadAction","target":["https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/"]}]},{"@type":"ImageObject","inLanguage":"en","@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage","url":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","contentUrl":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","width":1664,"height":1180,"caption":"Python3 Tuples Tutorial"},{"@type":"WebSite","@id":"https://jeevangupta.com/#website","url":"https://jeevangupta.com/","name":"JeevanGupta","description":"Knowledge means the world to me","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jeevangupta.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en"},{"@type":"Person","@id":"https://jeevangupta.com/#/schema/person/9a4452b34dbe59be55b345b6b6f865b8","name":"Jeevan Gupta","image":{"@type":"ImageObject","inLanguage":"en","@id":"https://jeevangupta.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/05c5595395e813505a1ce5ee4002f460?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/05c5595395e813505a1ce5ee4002f460?s=96&d=mm&r=g","caption":"Jeevan Gupta"},"sameAs":["https://www.jeevangupta.com","https://www.instagram.com/jeevan.r.gupta/","www.linkedin.com/in/jeevan-gupta"],"url":"https://jeevangupta.com/author/admin/"}]}</script>
+
+<link rel="dns-prefetch" href="//app.convertful.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="alternate" type="application/rss+xml" title="JeevanGupta &raquo; Feed" href="https://jeevangupta.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="JeevanGupta &raquo; Comments Feed" href="https://jeevangupta.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jeevangupta.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://jeevangupta.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.4" media="all" />
+<link rel="stylesheet" id="coblocks-frontend-css" href="https://jeevangupta.com/wp-content/plugins/coblocks/dist/style-coblocks-1.css?ver=3.1.8" media="all" />
+<link rel="stylesheet" id="coblocks-extensions-css" href="https://jeevangupta.com/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.8" media="all" />
+<link rel="stylesheet" id="coblocks-animation-css" href="https://jeevangupta.com/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=d9b2b27566e6a2a85d1b" media="all" />
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: rgb(56,56,59);--wp--preset--color--secondary: rgb(69,90,100);--wp--preset--color--tertiary: rgb(236,239,241);--wp--preset--color--quaternary: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--primary-to-secondary: linear-gradient(135deg, rgb(56,56,59) 0%, rgb(69,90,100) 100%);--wp--preset--gradient--primary-to-tertiary: linear-gradient(135deg, rgb(56,56,59) 0%, rgb(236,239,241) 100%);--wp--preset--gradient--primary-to-background: linear-gradient(135deg, rgb(56,56,59) 0%, rgb(255,255,255) 100%);--wp--preset--gradient--secondary-to-tertiary: linear-gradient(135deg, rgb(69,90,100) 0%, rgb(255,255,255) 100%);--wp--preset--font-size--small: 17px;--wp--preset--font-size--medium: 21px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--huge: 30px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="simple-banner-style-css" href="https://jeevangupta.com/wp-content/plugins/simple-banner/simple-banner.css?ver=2.17.0" media="all" />
+<link rel="stylesheet" id="rt-fontawsome-css" href="https://jeevangupta.com/wp-content/plugins/the-post-grid/assets/vendor/font-awesome/css/font-awesome.min.css?ver=7.6.1" media="all" />
+<link rel="stylesheet" id="rt-tpg-css" href="https://jeevangupta.com/wp-content/plugins/the-post-grid/assets/css/thepostgrid.min.css?ver=7.6.1" media="all" />
+<link rel="stylesheet" id="wp-components-css" href="https://jeevangupta.com/wp-includes/css/dist/components/style.min.css?ver=6.3.4" media="all" />
+<link rel="stylesheet" id="godaddy-styles-css" href="https://jeevangupta.com/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2" media="all" />
+<link rel="stylesheet" id="go-fonts-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CFira+Code%3A400%2C400i%2C700%7CHeebo%3A400%2C800&#038;subset=latin%2Clatin-ext&#038;ver=1.3.2" media="all" />
+<link rel="stylesheet" id="go-style-css" href="https://jeevangupta.com/wp-content/themes/go/dist/css/style-shared.min.css?ver=1.3.2" media="all" />
+<link rel="stylesheet" id="go-design-style-modern-css" href="https://jeevangupta.com/wp-content/themes/go/dist/css/design-styles/style-modern.min.css?ver=1.3.2" media="all" />
+<link rel="stylesheet" id="enlighterjs-css" href="https://jeevangupta.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=mgzH1bPsM/tBmU7" media="all" />
+<link rel="stylesheet" id="dvk-social-sharing-css" href="https://jeevangupta.com/wp-content/plugins/dvk-social-sharing/assets/css/styles.min.css?ver=1.3.4" media="all" />
+<script src="https://jeevangupta.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="https://jeevangupta.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="simple-banner-script-js-before">
+const simpleBannerScriptParams = {"version":"2.17.0","hide_simple_banner":"no","simple_banner_prepend_element":false,"simple_banner_position":"relative","header_margin":"","header_padding":"3%","simple_banner_z_index":false,"simple_banner_text":"I help businesses and individuals to achieve their Goals. <a href=\"https:\/\/www.jeevangupta.com\/work-with-jeevan\/\">Lets work together!<\/a>","pro_version_enabled":"","disabled_on_current_page":false,"debug_mode":"","id":2063,"disabled_pages_array":[],"is_current_page_a_post":true,"disabled_on_posts":"","simple_banner_disabled_page_paths":false,"simple_banner_font_size":"","simple_banner_color":"","simple_banner_text_color":"","simple_banner_link_color":"","simple_banner_close_color":"","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","wp_body_open_enabled":"","wp_body_open":true,"close_button_enabled":"","close_button_expiration":"","close_button_cookie_set":false,"current_date":{"date":"2024-04-15 09:54:20.541829","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2024-04-15 09:54:20.541838","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2024-04-15 09:54:20.541843","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":false,"simple_banner_remove_after_date":false,"simple_banner_insert_inside_element":false}
+</script>
+<script src="https://jeevangupta.com/wp-content/plugins/simple-banner/simple-banner.js?ver=2.17.0" id="simple-banner-script-js"></script>
+<script src="https://jeevangupta.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.15.5" id="smush-lazy-load-js"></script>
+<link rel="https://api.w.org/" href="https://jeevangupta.com/wp-json/" /><link rel="alternate" type="application/json" href="https://jeevangupta.com/wp-json/wp/v2/posts/2063" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jeevangupta.com/xmlrpc.php?rsd" />
+<link rel="shortlink" href="https://jeevangupta.com/?p=2063" />
+<link rel="alternate" type="application/json+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&#038;format=xml" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173075523-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173075523-1');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73GWWSTMB3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-73GWWSTMB3');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206435321699694" crossorigin="anonymous"></script><style id="simple-banner-header-padding" type="text/css">header{padding-top:3%;}</style><style type="text/css">.simple-banner{position:relative;}</style><style type="text/css">.simple-banner{background: #024985;}</style><style type="text/css">.simple-banner .simple-banner-text{color: #ffffff;}</style><style type="text/css">.simple-banner .simple-banner-text a{color:#f16521;}</style><style type="text/css">.simple-banner{z-index: 99999;}</style><style id="simple-banner-site-custom-css-dummy" type="text/css"></style><script id="simple-banner-site-custom-js-dummy" type="text/javascript"></script>
+<script>
+
+            jQuery(window).on('elementor/frontend/init', function () {
+                var previewIframe = jQuery('#elementor-preview-iframe').get(0);
+
+                // Attach a load event listener to the preview iframe
+                jQuery(previewIframe).on('load', function () {
+                    var tpg_selector = tpg_str_rev("nottub-tropmi-gpttr nottub-aera-noitces-dda-rotnemele");
+
+                    var logo = "https://jeevangupta.com/wp-content/plugins/the-post-grid";
+                    var log_path = "/assets/images/icon-40x40.svg"; //tpg_str_rev("gvs.04x04-noci/segami/stessa/");
+
+                    jQuery('<div class="' + tpg_selector + '" style="vertical-align: bottom;margin-left: 5px;"><img src="' + logo + log_path + '" alt="TPG"/></div>').insertBefore(".elementor-add-section-drag-title");
+                });
+
+            });
+        </script>
+<style>
+            :root {
+                --tpg-primary-color: #0d6efd;
+                --tpg-secondary-color: #0654c4;
+                --tpg-primary-light: #c4d0ff
+            }
+
+                    </style>
+<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+<style>
+			:root {
+				--go--color--white: hsl(0, 0%, 100%);
+									--go--color--primary: hsl(240, 3%, 23%);
+				
+									--go--color--secondary: hsl(199, 18%, 33%);
+				
+									--go--color--tertiary: hsl(204, 15%, 94%);
+				
+									--go--color--background: hsl(0, 0%, 100%);
+				
+									--go-header--color--background: hsl(240, 3%, 23%);
+				
+									--go-site-title--color--text: hsl(0, 0%, 100%);
+					--go-site-description--color--text: hsl(0, 0%, 100%);
+					--go-navigation--color--text: hsl(0, 0%, 100%);
+					--go-search-toggle--color--text: hsl(0, 0%, 100%);
+					--go-search-button--color--background: hsl(0, 0%, 100%);
+				
+									--go-footer--color--background: hsl(0, 0%, 85%);
+				
+				
+									--go-footer--color--text: hsl(0, 0%, 4%);
+					--go-footer-navigation--color--text: hsl(0, 0%, 4%);
+				
+				
+									--go-logo--max-width: 100px;
+				
+									--go-logo-mobile--max-width: 100px;
+				
+									--go--viewport-basis: 1100;
+							}
+
+			.has-primary-to-secondary-gradient-background {
+				background: -webkit-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--secondary) 100%);
+				background: -o-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--secondary) 100%);
+				background: linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--secondary) 100%);
+			}
+
+			.has-primary-to-tertiary-gradient-background {
+				background: -webkit-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--tertiary) 100%);
+				background: -o-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--tertiary) 100%);
+				background: linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--tertiary) 100%);
+			}
+
+			.has-primary-to-background-gradient-background {
+				background: -webkit-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--background) 100%);
+				background: -o-linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--background) 100%);
+				background: linear-gradient(135deg, var(--go--color--primary) 0%, var(--go--color--background) 100%);
+			}
+
+			.has-secondary-to-tertiary-gradient-background {
+				background: -webkit-linear-gradient(135deg, var(--go--color--secondary) 0%, var(--go--color--tertiary) 100%);
+				background: -o-linear-gradient(135deg, var(--go--color--secondary) 0%, var(--go--color--tertiary) 100%);
+				background: linear-gradient(135deg, var(--go--color--secondary) 0%, var(--go--color--tertiary) 100%);
+			}
+		</style>
+<link rel="icon" href="https://jeevangupta.com/wp-content/uploads/2021/02/JeevanGupta-logo-2021-3-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://jeevangupta.com/wp-content/uploads/2021/02/JeevanGupta-logo-2021-3.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://jeevangupta.com/wp-content/uploads/2021/02/JeevanGupta-logo-2021-3.png" />
+<meta name="msapplication-TileImage" content="https://jeevangupta.com/wp-content/uploads/2021/02/JeevanGupta-logo-2021-3.png" />
+<style id="wp-custom-css">
+			article p {
+	text-align:justify
+}
+
+p {
+	font-size: 15px;
+}
+
+a{
+	color: #067dfb;
+}
+
+/*
+.wp-block-cover{
+	background: url(../../../wp-content/uploads/2020/07/crop-0-0-1920-1080-0-jeevan1-1.jpg) no-repeat center top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+*/
+#home-page-jg{
+	margin-top: 6%;
+}
+
+/*
+#home-page-jg .wp-image-1589{
+	height: 700px;
+}
+*/
+
+@media (max-width: 2200px) and (min-width: 1787px){
+	#home-page-jg{
+		margin-top: 5%;
+	}
+	.wp-block-cover{
+		min-height: 780px !important;
+	}
+	#home-page-jg .wp-image-1589{
+	height: 840px;
+}
+}
+
+@media (max-width: 900px) and (min-width: 750px){
+	.wp-block-cover{
+		min-height: 600px !important;
+}
+}
+
+@media (max-width: 749px) and (min-width: 650px){
+	.wp-block-cover{
+		min-height: 550px !important;
+}
+}
+
+@media (max-width: 649px) and (min-width: 415px){
+	.wp-block-cover{
+		min-height: 400px !important;
+		margin-top: 10% !important;
+}
+}
+
+@media (max-width: 414px) {
+	.wp-block-cover{
+		min-height: 300px !important;
+		margin-top: 10% !important;
+}
+}
+
+@media (max-width: 414px) {
+	.header {
+    padding-top: 15%;
+}
+}
+
+/*hiding category title
+#site-content h1.post__title{
+	display: none;
+}*/
+#site-content h1.post__title{
+	margin-top: 5%;
+}
+
+/*hiding featured image on single post*/
+.post__thumbnail{
+	display:none;
+}
+.entry-header{
+	margin-top:2%;
+}
+
+.wp-block-coblocks-column__inner{
+	padding:10px;
+}
+
+/*recent post css*/
+.wp-block-latest-posts{
+	margin-top:5%;
+	margin-bottom:-5%;
+}
+
+
+@media (max-width: 781px){
+	.wp-block-column-custom {
+    flex-direction: column;
+    display: flex;
+}
+}
+
+.post-448 .wp-block-coblocks-row{
+	margin-top:0%;
+	margin-bottom: 0%;
+}
+
+#api_setup_page_select{
+	cursor: pointer;
+	margin-top: 30px;
+  margin-bottom: -15px;
+ -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.post a{
+	color: #2ebdfa;
+}
+
+@media(min-width:1024px){
+	.entry-content>:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide){
+	max-width:60% !important;
+}
+	
+.post-tags{
+		margin-left:20% !important;
+	}
+}
+
+.enlighter-default{
+	margin:auto;
+}
+
+/*link color #2ebdfa*/
+
+.post-meta .read-more a{
+	color: #f54504;
+}		</style>
+<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style></head>
+<body data-rsssl="1" class="post-template-default single single-post postid-2063 single-format-standard wp-embed-responsive rttpg rttpg-7.6.1 radius-frontend rttpg-body-wrap rttpg-flaticon is-style-modern has-header-1 has-footer-3 has-header-background has-footer-background has-featured-image singular">
+<div id="page" class="site">
+<a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
+<header id="site-header" class="site-header header relative has-background" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<div class="header__inner flex items-center justify-between h-inherit w-full relative">
+<div class="header__extras">
+<button id="header__search-toggle" class="header__search-toggle" data-toggle-target=".search-modal" data-set-focus=".search-modal .search-form__input" type="button" aria-controls="js-site-search">
+<div class="search-toggle-icon">
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m23.4519591 21.9382074-4.3609756-4.3609756c3.3365853-4.1560976 3.0146341-10.30243902-.7902439-14.07804878-1.9902439-1.9902439-4.6536586-3.10243902-7.492683-3.10243902-2.83902435 0-5.47317069 1.11219512-7.49268289 3.10243902-1.9902439 1.9902439-3.10243902 4.65365854-3.10243902 7.49268288 0 2.8390244 1.11219512 5.4731708 3.10243902 7.492683 1.99024391 1.9902439 4.65365854 3.102439 7.49268289 3.102439 2.4 0 4.7414635-.8195122 6.6146342-2.3121951l4.3609756 4.3609756c.2341463.2341463.5268293.3512195.8195122.3512195.3219512 0 .6146341-.1170732.8195122-.3512195.4682927-.497561.4682927-1.2292683.0292683-1.697561zm-4.3983006-11.1382074c0 2.195122-.8487805 4.2731707-2.4 5.8243902-1.5512195 1.5512196-3.6292683 2.4-5.8243902 2.4-2.19512196 0-4.27317074-.8487804-5.82439025-2.4-1.55121951-1.5512195-2.4-3.6292682-2.4-5.8243902 0-2.19512195.84878049-4.27317073 2.4-5.82439024 1.55121951-1.55121952 3.62926829-2.4 5.82439025-2.4 2.1951219 0 4.2731707.84878048 5.8243902 2.4 1.5512195 1.55121951 2.4 3.62926829 2.4 5.82439024z" /></svg>
+</div>
+<span class="screen-reader-text">Search Toggle</span>
+</button>
+</div>
+<div class="header__title-nav flex items-center flex-nowrap">
+<div class="header__titles lg:flex items-center" itemscope itemtype="http://schema.org/Organization"><a class="display-inline-block no-underline" href="https://jeevangupta.com/" itemprop="url"><span class="site-title">JeevanGupta</span></a><span class="site-description display-none sm:display-block relative text-sm">Knowledge means the world to me</span></div>
+<nav id="header__navigation" class="header__navigation" aria-label="Horizontal" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="header__navigation-inner">
+<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="primary-menu list-reset"><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="https://jeevangupta.com/api-integration-and-setup/">API Integration &#038; Setup</a></li>
+<li id="menu-item-2439" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-2439"><a href="https://jeevangupta.com/category/blog/python3-guide/">Python3<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+</a>
+<ul class="sub-menu">
+<li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://jeevangupta.com/python-programing-language/">Python Programming</a></li>
+</ul>
+</li>
+<li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://jeevangupta.com/web-development/">Web Development</a></li>
+<li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1702"><a href="https://jeevangupta.com/travel-and-trips/">Travel &#038; Trips</a></li>
+<li id="menu-item-2440" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2440"><a href="https://jeevangupta.com/category/blog/lifestyle-and-finance/">LifeStyle &amp; Finance<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+</a>
+<ul class="sub-menu">
+<li id="menu-item-2441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2441"><a href="https://jeevangupta.com/finance-and-taxation/">Finance &#038; Taxation</a></li>
+<li id="menu-item-2442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2442"><a href="https://jeevangupta.com/career-and-professional-development/">Career &#038; Professional Development</a></li>
+<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="https://jeevangupta.com/celebrations-and-traditions/">Celebrations &#038; Traditions</a></li>
+<li id="menu-item-2443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2443"><a href="https://jeevangupta.com/thoughts-and-perspectives/">Thoughts &#038; Perspectives</a></li>
+</ul>
+</li>
+<li id="menu-item-2591" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2591"><a href="https://jeevangupta.com/category/blog/data-and-ai/">Data &amp; AI<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+</a>
+<ul class="sub-menu">
+<li id="menu-item-2590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2590"><a href="https://jeevangupta.com/data-mining/">Data Mining</a></li>
+<li id="menu-item-2445" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2445"><a href="https://jeevangupta.com/category/blog/data-and-ai/artificial-intelligence-guide/">Artificial Intelligence (AI)</a>
+<ul class="sub-menu">
+<li id="menu-item-523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-523"><a href="https://jeevangupta.com/artificial-neural-network-understanding/">Artificial Neural Network (ANN)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2153"><a href="https://jeevangupta.com/category/about/">About<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+</a>
+<ul class="sub-menu">
+<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://jeevangupta.com/about-jeevan-gupta/">About Jeevan Gupta</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://jeevangupta.com/connect-with-jeevan-gupta/">Connect with Jeevan Gupta</a></li>
+</ul>
+</li>
+<li id="menu-item-2446" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-2446"><a href="https://jeevangupta.com/category/blog/">Blog</a></li>
+</ul></div> </div>
+</nav>
+</div>
+<div class="header__nav-toggle">
+<button id="nav-toggle" class="nav-toggle" type="button" aria-controls="header__navigation">
+<div class="nav-toggle-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m3.23076923 15.4615385c-1.78430492 0-3.23076923-1.4464647-3.23076923-3.2307693 0-1.7843045 1.44646431-3.2307692 3.23076923-3.2307692s3.23076923 1.4464647 3.23076923 3.2307692c0 1.7843046-1.44646431 3.2307693-3.23076923 3.2307693zm8.76923077 0c-1.7843049 0-3.23076923-1.4464647-3.23076923-3.2307693 0-1.7843045 1.44646433-3.2307692 3.23076923-3.2307692s3.2307692 1.4464647 3.2307692 3.2307692c0 1.7843046-1.4464643 3.2307693-3.2307692 3.2307693zm8.7692308 0c-1.784305 0-3.2307693-1.4464647-3.2307693-3.2307693 0-1.7843045 1.4464643-3.2307692 3.2307693-3.2307692 1.7843049 0 3.2307692 1.4464647 3.2307692 3.2307692 0 1.7843046-1.4464643 3.2307693-3.2307692 3.2307693z" /></svg>
+</div>
+<div class="nav-toggle-icon nav-toggle-icon--close">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.2325621 4.63841899c.526819-.52681908.5246494-1.38313114-.0035241-1.9113046l.0438476.04384757c-.5287653-.52876531-1.3869798-.52784878-1.9113046-.00352402l-7.065629 7.06562899c-.1634497.16344977-.4265682.16533585-.591904 0l-7.06562901-7.06562899c-.52681908-.52681907-1.38313114-.52464944-1.9113046.00352402l.04384757-.04384757c-.52876531.52876532-.52784878 1.38697983-.00352402 1.9113046l7.06562899 7.06562901c.16344977.1634497.16533585.4265682 0 .591904l-7.06562899 7.065629c-.52681907.5268191-.52464944 1.3831311.00352402 1.9113046l-.04384757-.0438476c.52876532.5287654 1.38697983.5278488 1.9113046.0035241l7.06562901-7.065629c.1634497-.1634498.4265682-.1653359.591904 0l7.065629 7.065629c.5268191.526819 1.3831311.5246494 1.9113046-.0035241l-.0438476.0438476c.5287654-.5287653.5278488-1.3869798.0035241-1.9113046l-7.065629-7.065629c-.1634498-.1634497-.1653359-.4265682 0-.591904z" fill-rule="evenodd" /></svg>
+</div>
+<span class="screen-reader-text">Menu</span>
+</button>
+</div>
+</div>
+<div class="search-modal" data-modal-target-string=".search-modal" aria-expanded="false">
+<div class="search-modal-inner">
+<div id="js-site-search" class="site-search" itemscope itemtype="http://schema.org/WebSite">
+<form role="search" id="searchform" class="search-form" method="get" action="https://jeevangupta.com/">
+<meta itemprop="target" content="https://jeevangupta.com//?s={s}" />
+<label for="search-field">
+<span class="screen-reader-text">Search for:</span>
+</label>
+<input itemprop="query-input" type="search" id="search-field" class="input input--search search-form__input" autocomplete="off" placeholder="Search &hellip;" value name="s" />
+<button type="submit" class="search-input__button">
+<span class="search-input__label">Submit</span>
+<svg role="img" class="search-input__arrow-icon" width="30" height="28" viewBox="0 0 30 28" fill="inherit" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M16.1279 0L29.9121 13.7842L16.1279 27.5684L14.8095 26.25L26.3378 14.7217H-6.10352e-05V12.8467H26.3378L14.8095 1.31844L16.1279 0Z" fill="inherit" />
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="29.9121" height="27.5684" fill="white" />
+</clipPath>
+</defs>
+</svg>
+</button>
+</form>
+</div>
+</div>
+</div>
+</header>
+<main id="site-content" class="site-content" role="main">
+<article class="post-2063 post type-post status-publish format-standard has-post-thumbnail hentry category-python-programming-language tag-python-tuples-beginner-guide tag-python3-tuple tag-python3-tuple-example tag-tuple-interview-question" id="post-2063">
+<div class="post__thumbnail">
+<img width="1664" height="1180" src="https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Python Tuples Tutorial" decoding="async" fetchpriority="high" /> </div>
+<header class="entry-header m-auto px">
+<h1 class="post__title entry-title m-0">Python Tuples Tutorial &#8211; Learning Python Tuples with Example</h1>
+<div class="post__meta--wrapper post__meta--single post__meta--top">
+<ul class="post__meta list-reset">
+<li class="post-author meta-wrapper">
+<span class="meta-icon">
+<span class="screen-reader-text">Post author</span>
+<svg role="img" aria-hidden="true" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<g fill="none">
+<g fill="currentColor">
+<path d="M16,18 L0,18 L0,16 C0,13.790861 1.790861,12 4,12 L12,12 C14.209139,12 16,13.790861 16,16 L16,18 Z M8,8 C5.790861,8 4,6.209139 4,4 C4,1.790861 5.790861,0 8,0 C10.209139,0 12,1.790861 12,4 C12,6.209139 10.209139,8 8,8 Z"></path>
+</g>
+</g>
+</svg>
+</span>
+<span class="meta-text">
+By <a href="https://jeevangupta.com/author/admin/">Jeevan Gupta</a> </span>
+</li>
+<li class="post-date">
+<a class="meta-wrapper" href="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/">
+<span class="meta-icon">
+<span class="screen-reader-text">Post date</span>
+<svg role="img" aria-hidden="true" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m19 5h-1v-2h-2v2h-8v-2h-2v2h-1c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-12c0-1.1-.9-2-2-2zm0 14h-14v-10h14z" /></svg>
+</span>
+<span class="meta-text">
+<time datetime="2022-08-12T23:53:07+05:30">August 12, 2022</time> </span>
+</a>
+</li>
+</ul>
+</div>
+</header>
+<div class="content-area__wrapper">
+<!-- google_ad_section_start -->
+<div class="content-area entry-content">
+<h2 class="has-tertiary-color has-text-color wp-block-heading"><strong>Common Python Tuples interview questions and doubts</strong></h2>
+<p>Hi there! Hope you are doing well. In this article, we will learn Python Tuples and will understand some Python Tuples concepts through examples. If you don’t know –  what is the Python programming language? its usage and benefits. I recommend you go through all about the Python programming language guide. If you are already familiar with Python and you just want to refresh the Python Tuples understanding you are at the right place. Moreover, this article will also help you get prepared with Python tuples interview questions.</p>
+<p></p>
+<p><strong>Without wasting any time let&#8217;s dive in.</strong></p>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="726" src="https://www.jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial-1024x726.png" alt class="wp-image-2076" /></figure><div class="code-block code-block-1" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206435321699694" crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5206435321699694" data-ad-slot="3184491608" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="wp-block-coblocks-row coblocks-row-023212047305" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-tertiary-background-color has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter">
+<div class="wp-block-coblocks-column coblocks-column-023212049476" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
+<h3 class="wp-block-heading">Table of Content:</h3>
+<ul><li><a href="#tuples_point1">Tuples in Python</a></li><li><a href="#tuples_point2">Tuples vs List</a></li><li><a href="#tuples_point3">Create Tuples</a></li><li><a href="#tuples_point4">Accessing Tuples Items</a></li><li><a href="#tuples_point5">Updating a Tuples</a></li><li><a href="#tuples_point6">Unpack Tuples</a></li><li><a href="#tuples_point7">Loop through Tuples</a></li><li><a href="#tuples_point8">Join Tuples</a></li><li><a href="#tuples_point9">Delete Items from Tuples</a></li><li><a href="#tuples_point10">Multiply Tuples</a></li><li><a href="#tuples_point11">Tuples Methods</a></li><li><a href="#tuples_point12">Tuple Interview Questions</a></li></ul>
+</div></div>
+</div></div>
+<h2 class="wp-block-heading" id="tuples_point1"><strong>What are Python Tuples?</strong></h2>
+<p>The Tuple is a data structure in Python, with a datatype of “<strong>tuple</strong>”. The Tuples is an immutable(i.e. unchangeable) ordered sequence of data. Tuple elements/items are ordered, meaning each element has a defined position that will not change. Immutable means that once the tuple is created, we cannot change, add or remove items to or from the Tuple.</p>
+<p></p>
+<p>A Python tuple is a collection of data/items written with a round bracket separated by commas. A Tuple can hold data types like integers, strings, floats, and objects. It can also hold different data types at the same time.</p>
+<p> <br>Each data in the tuple is referred to as elements or items which are indexed. The tuple index count starts from 0. Python Tuple also allows duplicate elements, since each element will have its own index position and credibility. Tuples are created using <strong>round brackets () or tuple()</strong> Python constructor.</p>
+<p></p>
+<h2 class="wp-block-heading" id="tuples_point2"><strong>Difference between Python Tuples and Python List?</strong></h2>
+<figure class="wp-block-table is-style-regular"><table><tbody><tr><td><strong>Tuples</strong></td><td><strong>List</strong></td></tr><tr><td>Immutable</td><td>Mutable</td></tr><tr><td>More memory efficient&nbsp;</td><td>Less memory efficient</td></tr><tr><td>Items are closed by a round bracket&nbsp;</td><td>Items are closed by a square bracket&nbsp;</td></tr><tr><td>Smaller size thus faster</td><td>Slight bigger in size hence slightly slower</td></tr></tbody></table></figure>
+<h2 class="wp-block-heading" id="tuples_point3"><strong>How to create and get the length of Python tuples?</strong></h2>
+<p>A Tuple can be created using a round bracket or by using a <strong>tuple()</strong> constructor.&nbsp;</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#tuple creation using ()
+state_tuple1 = ("Goa","Kerala","Panjab","Delhi")
+print(state_tuple1)
+ 
+#tuple creation using tuple() constructor
+state_tuple2 = tuple(("Karnataka","Gujarat","Tamilnadu","Uttrakhand"))
+print(state_tuple2)
+ 
+#Multi data type tuple
+multi_data_type_tuple = ("Karnataka",8,"Uttrakhand",98.3,{"Goa"})
+print(multi_data_type_tuple)</pre>
+<p></p>
+<p>The length of a Tuple can be found by using the len() built-in function.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
+print(len(state_tuple))</pre>
+<h2 class="wp-block-heading" id="tuples_point4"><strong>How to access Python tuples?</strong></h2>
+<h3 class="wp-block-heading">1. <strong>Positive indexing</strong></h3>
+<p>As we mentioned above Tuple items are indexed i.e. each element of the Tuple has a unique index number. Using this index number (positive number) a specific item from the Tuple can be retrieved. This method is also known as positive indexing i.e. accessing the Tuple from the beginning. So 0 will refer to the first item, 2 will refer to the third item, and so on.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
+print(state_tuple[0])
+print(state_tuple[2])</pre>
+<h3 class="wp-block-heading">2. <strong>Negative indexing</strong></h3>
+<p>A Tuple can also be accessed using negative indexing i.e. negative number. Negatives here indicate that a tuple will be accessed from the end. NOTE: In negative indexing, numbers start from -1, unlike 0 in positive indexing. So, here -1 means the last item, and -2 means the second last item.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
+print(state_tuple[-1])
+print(state_tuple[-2])</pre>
+<p></p>
+<h3 class="wp-block-heading">3. <strong>Range of Indexes</strong></h3>
+<p>This method is used to access a range of tuple items at once, unlike the above method where we access one item at a time. To get a range of values one can set the start to one index number and the end to another index number.</p>
+<p></p>
+<p>In range indexing access methods, if you miss the start index then you will get the range from the start of the tuple to the specified end index number. If you miss out on the end index then you will get a range from the start index number till the end of the tuple.&nbsp;</p>
+<p></p>
+<p>NOTE: In the positive range index, you will get items from startIndex to endIndex-1.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Positive range index example
+state_tuple = ("Goa","Kerala","Panjab","Delhi","Karnataka","Gujarat","Tamilnadu")
+print(state_tuple[2:4])
+print(state_tuple[:2])
+print(state_tuple[4:])</pre>
+<p>NOTE: In the negative range index, you will get items from -ve startIndex to -ve endIndex-1.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Negative range index example
+state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
+print(state_tuple[-4:-2])
+print(state_tuple[:-2])
+print(state_tuple[-4:])</pre>
+<h2 class="wp-block-heading" id="tuples_point5"><strong>How to update Python Tuples?</strong></h2>
+<h3 class="wp-block-heading"><strong>Change tuples values</strong>:</h3>
+<p>Interview question &#8211; can you change the tuple values? If Yes, how?</p>
+<p>As we discussed above, tuples are immutable or unchangeable. So once a tuple is created we can&#8217;t change its value. But there is one way to do it.</p>
+<p>First, convert the tuple to a list. Then change the value in the list. Finally, convert the updated list back to the tuple.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Update Tuple
+state_tuple = ("Goa","Kerala","Karnataka")
+state_list = list(state_tuple)
+state_list[1] = "Gujarat"
+state_tuple = tuple(state_list)
+print(state_tuple)</pre>
+<h3 class="wp-block-heading"><strong>Add items to tuples:</strong></h3>
+<p>For this too, you can use the above-mentioned methods. First, convert a tuple to a list, then use the append() method to add value to the list. Finally, convert back the list to the tuple.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Add item to Tuple Example
+state_tuple = ("Goa","Kerala","Karnataka")
+state_list = list(state_tuple)
+state_list.append("Delhi")
+state_tuple = tuple(state_list)
+print(state_tuple)</pre>
+<p>Hold on, there is one more way. Tuple does not allow you to add items to tuple but Python Tuple does allow you to add tuple to tuple.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Gujarat","Karnataka")
+new_tuple = ("Kerala","Punjab")
+state_tuple = state_tuple + new_tuple
+print(state_tuple)</pre>
+<h4 class="wp-block-heading">Interview question &#8211; can we add value to a tuple?&nbsp;</h4>
+<p>Yes, we can do it in two ways, first by converting the tuple to a list and then adding value. Second, by creating a tuple with a new value and then adding this tuple to the existing tuple.</p>
+<p></p>
+<h2 class="wp-block-heading" id="tuples_point6"><strong>How to unpack python tuples?</strong></h2>
+<p>First and foremost, what is unpacking in Python? An operation to extract value from an iterable (tuple or list) and assign it to variables. The variables should also be in lists or tuples. There should be the same number of variables or one should use * to handle unassigned values.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#packing a tuple
+state_tuple = ("Goa","Gujarat","Karnataka")
+print(state_tuple)
+#unpacking a tuple
+(GA,GJ,KA) = state_tuple
+print(GA,GJ,KA)</pre>
+<h2 class="wp-block-heading" id="tuples_point7"><strong>How to loop through Python tuples?</strong></h2>
+<p>As we know we can use a <strong>for loop or while loop</strong> to iterate (loop) through any iterable. So, Tuple items can also be accessed using <strong>for loop and a while loop.</strong></p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#for loop example
+state_tuple = ("Goa","Kerala","Punjab","Delhi")
+print(state_tuple)
+for state in state_tuple:
+   print(state)
+ 
+print("\n")
+ 
+#for loop using tuple index
+state_tuple = ("Goa","Kerala","Punjab","Delhi")
+print(state_tuple)
+for i in range(len(state_tuple)):
+   print(state_tuple[i])
+ 
+#while loop using tuple index
+state_tuple = ("Goa","Kerala","Punjab","Delhi")
+print(state_tuple)
+i=0
+while i &lt; len(state_tuple):
+   print(state_tuple[i])
+   i+=1
+</pre>
+<h2 class="wp-block-heading" id="tuples_point8"><strong>How to join Python tuples? </strong></h2>
+<p>We have already used this operation above in adding an item to the tuple. So basically two or more tuples can be joined using the + operator.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Join Tuple example
+state_tuple1 = ("Goa","Gujarat","Karnataka")
+state_tuple2= ("Kerala","Punjab")
+state_tuple = state_tuple + new_tuple
+print(state_tuple)</pre>
+<h2 class="wp-block-heading" id="tuples_point9"><strong>How to delete or remove items from Tuples?</strong></h2>
+<p>As we know tuple is immutable, which means we can&#8217;t add an item to a tuple nor we can delete an item from the tuple. But there are several ways to do it.&nbsp;</p>
+<h3 class="wp-block-heading"><strong>Using slicing</strong>:</h3>
+<p>We can use range index (slicing) on the tuple and then merge the tuple by using the <strong>+</strong> operator.</p>
+<p></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#slicing method to remove item from tuple
+state_tuple = ("Goa","Gujarat","Karnataka","Kerala","Punjab","Delhi")
+new_tuple = state_tuple[:3] + state_tuple[4:]
+print(new_tuple)</pre>
+<h3 class="wp-block-heading"><strong>Converting to List</strong>:</h3>
+<p>Here we first convert tuples to lists, then we use the remove() method to remove items from the list. There are other ways to remove items from the list you can use anything you want. After removing an item from the list, convert it back to the tuple.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#removing item from tuple by converting it to list
+state_tuple = ("Goa","Gujarat","Karnataka","Kerala","Punjab","Delhi")
+state_list = list(state_tuple)
+state_list.remove("Karnataka")
+state_tuple = tuple(state_list)
+print(state_tuple)</pre>
+<h2 class="wp-block-heading" id="tuples_point10"><strong>How do multiply Tuples?</strong></h2>
+<p>Multiplying a tuple basically means repeating each item of a tuple by N number of times.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#removing item from tuple by converting it to list
+state_tuple = ("Goa","Gujarat","Punjab","Delhi")
+state_tuple_2X = state_tuple * 2
+print(state_tuple_2X)</pre>
+<p></p>
+<h2 class="wp-block-heading" id="tuples_point11"><strong>Tuples Methods:</strong></h2>
+<figure class="wp-block-table is-style-regular"><table><tbody><tr><td><strong>Method</strong></td><td><strong>Explanation</strong></td></tr><tr><td>count()</td><td>Return the number of times a species item present in a tuple</td></tr><tr><td>index()</td><td>Return the position of the passed item in the parameter</td></tr></tbody></table></figure>
+<h2 class="wp-block-heading" id="tuples_point12"><strong>Tuples Interview Questions</strong></h2>
+<div class="wp-block-coblocks-row coblocks-row-71311479453" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter" style="background-color:#fbeed2">
+<div class="wp-block-coblocks-column coblocks-column-713114715780" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
+<h3 class="wp-block-heading">How to multiply a number with each tuple of items?</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#multiply a number with value of tuple
+number_tuple = (2, 5, 8, 1, 5, 3)
+number = 2
+result_tuple = tuple(v*number for v in number_tuple)
+print(result_tuple)</pre>
+<p></p>
+<h3 class="wp-block-heading">How to multiply all integer values of a tuple?</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#multiply all values of tuple
+import math
+number_tuple = (2, 5, 8, 1, 5, 3)
+result = math.prod(number_tuple)
+print(result)</pre>
+<h3 class="wp-block-heading">How to add a number to each tuple item?</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#add a number with value of tuple
+number_tuple = (2, 5, 8, 1, 5, 3)
+number = 5
+result_tuple = tuple(v+number for v in number_tuple)
+print(result_tuple)
+ 
+ 
+#get sum of all tuple value
+number_tuple = (2, 5, 8, 1, 5, 3)
+result = sum(number_tuple)
+print(result)</pre>
+<h3 class="wp-block-heading">Check if Items are present/exist in Tuple</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
+search_item = "Goa"
+if search_item in state_tuple:
+   print("Value present in Tuple")
+else:
+   print("Value not found in Tuple")</pre>
+<p></p>
+<h3 class="wp-block-heading">Create and Access a nested tuple</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#nested tuple
+state_tuple = (("Goa","Orange"),"Kerala",("Delhi","DL"),"Karnataka",("Gujarat","GJ",129),"Tamilnadu")
+ 
+#accessing nested tuple
+print(state_tuple[0][0])
+print(state_tuple[2][1])
+print(state_tuple[4][2])</pre>
+<h3 class="wp-block-heading">Reverse item of tuple</h3>
+<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#reverse item of tuple using slicing
+state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
+print(state_tuple[::-1])</pre>
+<p></p>
+<p>Above are the few interview questions that an interviewer asks. I will suggest you practice some more interview (medium and tough level) questions, you can take a look at these <a href="https://devenum.com/python-25-tuple-programming-interview-questions-and-answers/" target="_blank" rel="noreferrer noopener">25 Tuple questions</a>. Another important thing is if you are preparing for your upcoming interview you should also refresh your knowledge on some <a href="https://www.python-ds.com/python-interview-questions" target="_blank" rel="noreferrer noopener">basic python interview questions</a>. </p>
+</div></div>
+</div></div>
+<p></p>
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#15a300" class="has-inline-color">Hope I have made it easy to understand the Python tuple and its basic operations.</mark> <mark style="background-color:rgba(0, 0, 0, 0);color:#15a300" class="has-inline-color">If you Like this article and think it was easy to understand and might help someone you know do share it with them. Thank You! See you soon.</mark></strong></p>
+<p></p>
+<div class="wp-block-columns is-layout-flex wp-container-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<p style="font-size:15px">If you have any questions or comments feel free to reach me at.</p>
+</div>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-coblocks-social wp-block-coblocks-social-profiles has-colors"><ul><li>
+<a href="https://www.instagram.com/jeevan.r.gupta" class="wp-block-button__link wp-block-coblocks-social__button wp-block-coblocks-social__button--instagram     has-padding" title="Instagram" style="border-radius: 40px;">
+<span class="wp-block-coblocks-social__icon" style></span>
+<span class="wp-block-coblocks-social__text">Instagram</span>
+</a>
+</li><li>
+<a href="https://www.linkedin.com/in/jeevan-gupta" class="wp-block-button__link wp-block-coblocks-social__button wp-block-coblocks-social__button--linkedin     has-padding" title="Linkedin" style="border-radius: 40px;">
+<span class="wp-block-coblocks-social__icon" style></span>
+<span class="wp-block-coblocks-social__text">Linkedin</span>
+</a>
+</li></ul></div>
+<p></p>
+</div>
+</div>
+<p class="has-quaternary-color has-secondary-background-color has-text-color has-background"><strong>Checkout out other python concept covered in <a href="https://www.jeevangupta.com/python-programing-language/">Python Tutorial</a></strong></p>
+
+<p class="dvk-social-sharing ss-icon-size-32">
+<span class="ss-ask">Share this post: </span>
+<a rel="external nofollow" class="ss-twitter" href="https://twitter.com/intent/tweet/?text=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example&url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" target="_blank">
+<span class="ss-icon ss-icon-twitter"></span>
+<span class="ss-text">on Twitter</span>
+</a> <a rel="external nofollow" class="ss-facebook" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&p[title]=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example" target="_blank">
+<span class="ss-icon ss-icon-facebook"></span>
+<span class="ss-text">on Facebook</span>
+</a> <a rel="external nofollow" class="ss-googleplus" href="https://plus.google.com/share?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" target="_blank">
+<span class="ss-icon ss-icon-googleplus"></span>
+<span class="ss-text">on Google+</span>
+</a> <a rel="external nofollow" class="ss-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&title=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example" target="_blank">
+<span class="ss-icon ss-icon-linkedin"></span>
+<span class="ss-text">on LinkedIn</span>
+</a> </p>
+
+<div class="conv-place conv-place_after_post"></div>
+</div>
+<!-- google_ad_section_end -->
+<div class="post__meta--wrapper post__meta--single post__meta--single-bottom">
+<ul class="post__meta list-reset">
+<li class="post-tags meta-wrapper">
+<span class="meta-icon">
+<span class="screen-reader-text">Tags</span>
+<svg role="img" aria-hidden="true" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m11.25745 17.21235c-.57615.5723-1.50585.5723-2.0781 0l-8.0957-7.59275c-.45315-.4248-.9922-1.229-1.03125-1.84815-.10355-1.6753-.0303-4.8833.0205-6.5835.01855-.6206.53905-1.14015 1.16015-1.1538 2.17285-.05125 6.77635-.105 7.2041.32325l8.91405 8.0654c.57225.5728.0537 2.0215-.52245 2.5977zm-7.09375-14.7153c-.4863-.4839-1.2715-.4839-1.75685 0-.48435.4863-.48435 1.2705 0 1.75535.48635.4849 1.2715.4849 1.75685 0 .4844-.48485.4844-1.2695 0-1.75535z" /></svg>
+</span>
+<span class="meta-text">
+<a href="https://jeevangupta.com/tag/python-tuples-beginner-guide/" rel="tag">Python tuples beginner guide</a>, <a href="https://jeevangupta.com/tag/python3-tuple/" rel="tag">python3 tuple</a>, <a href="https://jeevangupta.com/tag/python3-tuple-example/" rel="tag">python3 tuple example</a>, <a href="https://jeevangupta.com/tag/tuple-interview-question/" rel="tag">tuple interview question</a> </span>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<div class="code-block code-block-3" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206435321699694" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5206435321699694" data-ad-slot="3476824009"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</main>
+<footer id="colophon" class="site-footer site-footer--3 has-background">
+<div class="site-footer__inner max-w-base lg:max-w-wide m-auto px">
+<div class="flex flex-wrap lg:justify-between lg:flex-nowrap">
+<div class="header__titles lg:flex items-center" itemscope itemtype="http://schema.org/Organization"><a class="display-inline-block no-underline" href="https://jeevangupta.com/" itemprop="url"><span class="site-title">JeevanGupta</span></a></div>
+<nav class="footer-navigation footer-navigation--1 text-sm" aria-label="Primary Footer Menu">
+<span class="footer-navigation__title">Technical, Travel and Social</span>
+<div class="menu-technical-travel-and-social-container"><ul id="menu-technical-travel-and-social" class="footer-menu list-reset"><li id="menu-item-1655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1655"><a href="https://jeevangupta.com/api-integration-and-setup/">API Integration &#038; Setup</a></li>
+<li id="menu-item-1656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1656"><a href="https://jeevangupta.com/python-programing-language/">Python Programming</a></li>
+<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1657"><a href="https://jeevangupta.com/web-development/">Web Development</a></li>
+<li id="menu-item-1658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1658"><a href="https://jeevangupta.com/celebrations-and-traditions/">Celebrations &#038; Traditions</a></li>
+<li id="menu-item-1659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1659"><a href="https://jeevangupta.com/artificial-neural-network-understanding/">Artificial Neural Network (ANN)</a></li>
+</ul></div> </nav>
+<nav class="footer-navigation footer-navigation--3 text-sm" aria-label="Tertiary Footer Menu">
+<span class="footer-navigation__title">About Us</span>
+<div class="menu-about-us-container"><ul id="menu-about-us" class="footer-menu list-reset"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://jeevangupta.com/connect-with-jeevan-gupta/">Connect with Jeevan Gupta</a></li>
+<li id="menu-item-1652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1652"><a href="https://jeevangupta.com/work-with-jeevan/">Work with Jeevan</a></li>
+<li id="menu-item-1653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1653"><a href="https://jeevangupta.com/about-jeevan-gupta/">About Jeevan Gupta</a></li>
+<li id="menu-item-2144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2144"><a rel="privacy-policy" href="https://jeevangupta.com/jeevangupta-privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-2160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160"><a href="https://jeevangupta.com/terms-of-use-jeevangupta/">Terms of Use</a></li>
+</ul></div> </nav>
+</div>
+<div class="site-footer__row flex flex-column lg:flex-row justify-between items-center">
+<div class="site-info text-sm mb-0">
+&copy; 2024&nbsp; <span class="copyright">
+Jeevan Gupta - Have a lovely day! </span>
+<a class="privacy-policy-link" href="https://jeevangupta.com/jeevangupta-privacy-policy/" rel="privacy-policy">Privacy Policy</a>
+</div>
+<ul class="social-icons list-reset m-0">
+<li class="display-inline-block social-icon-facebook">
+<a class="social-icons__icon" href="https://www.facebook.com/jeevan.gupta.1907" aria-label="Facebook" rel="noopener noreferrer">
+<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg>
+</a>
+</li>
+<li class="display-inline-block social-icon-instagram">
+<a class="social-icons__icon" href="https://www.instagram.com/jeevan.r.gupta" aria-label="Instagram" rel="noopener noreferrer">
+<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg>
+</a>
+</li>
+<li class="display-inline-block social-icon-linkedin">
+<a class="social-icons__icon" href="https://www.linkedin.com/in/jeevan-gupta" aria-label="LinkedIn" rel="noopener noreferrer">
+<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+<div class="simple-banner simple-banner-text" style="display:none !important"></div><style id="core-block-supports-inline-css">
+.wp-container-3.wp-container-3{flex-wrap:nowrap;}
+</style>
+<script src="https://jeevangupta.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.8" id="coblocks-animation-js"></script>
+<script src="https://jeevangupta.com/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiper.js?ver=3.1.8" id="coblocks-tiny-swiper-js"></script>
+<script id="coblocks-tinyswiper-initializer-js-extra">
+var coblocksTinyswiper = {"carouselPrevButtonAriaLabel":"Previous","carouselNextButtonAriaLabel":"Next","sliderImageAriaLabel":"Image"};
+</script>
+<script src="https://jeevangupta.com/wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializer.js?ver=3.1.8" id="coblocks-tinyswiper-initializer-js"></script>
+<script id="go-frontend-js-extra">
+var GoText = {"searchLabel":"Expand search field"};
+</script>
+<script src="https://jeevangupta.com/wp-content/themes/go/dist/js/frontend.min.js?ver=1.3.2" id="go-frontend-js"></script>
+<script id="convertful-api-js-extra">
+var convPlatformVars = {"postType":"post","categories":["python-programming-language"],"tags":["python-tuples-beginner-guide","python3-tuple","python3-tuple-example","tuple-interview-question"],"ajax_url":"https:\/\/jeevangupta.com\/index.php?rest_route=\/convertful\/v2\/","userRoles":["guest"]};
+</script>
+<script type="text/javascript" id="convertful-api" src="https://app.convertful.com/Convertful.js?owner=56958" async="async"></script><script src="https://jeevangupta.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=mgzH1bPsM/tBmU7" id="enlighterjs-js"></script>
+<script id="enlighterjs-js-after">
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"beyond","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'8855b89229d285eb',t:'MTcxNTk3MTA3MC4wNjYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
