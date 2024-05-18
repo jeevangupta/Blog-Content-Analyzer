@@ -6,28 +6,24 @@
 <link rel="profile" href="https://gmpg.org/xfn/11" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-<title>Python Tuples Tutorial - Python Tuples Interview Example</title>
-<meta name="description" content="Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions." />
-<link rel="canonical" href="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/" />
+<title>Get to know Jeevan Gupta: Forte, Achievements, and More</title>
+<meta name="description" content="Here you will know Jeevan Gupta&#039;s skills set, work experience, education, accomplishment, and most importantly my capabilities." />
+<link rel="canonical" href="https://jeevangupta.com/about-jeevan-gupta/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Python Tuples Tutorial - Python Tuples Interview Example" />
-<meta property="og:description" content="Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions." />
-<meta property="og:url" content="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/" />
+<meta property="og:title" content="Get to know Jeevan Gupta: Forte, Achievements, and More" />
+<meta property="og:description" content="Here you will know Jeevan Gupta&#039;s skills set, work experience, education, accomplishment, and most importantly my capabilities." />
+<meta property="og:url" content="https://jeevangupta.com/about-jeevan-gupta/" />
 <meta property="og:site_name" content="JeevanGupta" />
-<meta property="article:published_time" content="2022-08-12T18:23:07+00:00" />
-<meta property="article:modified_time" content="2023-07-23T10:30:29+00:00" />
-<meta property="og:image" content="https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png" />
-<meta property="og:image:width" content="1664" />
-<meta property="og:image:height" content="1180" />
-<meta property="og:image:type" content="image/png" />
-<meta name="author" content="Jeevan Gupta" />
+<meta property="article:modified_time" content="2023-09-28T18:00:03+00:00" />
+<meta property="og:image" content="https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="800" />
+<meta property="og:image:type" content="image/jpeg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:label1" content="Written by" />
-<meta name="twitter:data1" content="Jeevan Gupta" />
-<meta name="twitter:label2" content="Est. reading time" />
-<meta name="twitter:data2" content="8 minutes" />
-<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/","url":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/","name":"Python Tuples Tutorial - Python Tuples Interview Example","isPartOf":{"@id":"https://jeevangupta.com/#website"},"primaryImageOfPage":{"@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage"},"image":{"@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage"},"thumbnailUrl":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","datePublished":"2022-08-12T18:23:07+00:00","dateModified":"2023-07-23T10:30:29+00:00","author":{"@id":"https://jeevangupta.com/#/schema/person/9a4452b34dbe59be55b345b6b6f865b8"},"description":"Python tuples are one of four data structure in python3. This article will also help you get prepared with python tuples interview questions.","inLanguage":"en","potentialAction":[{"@type":"ReadAction","target":["https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/"]}]},{"@type":"ImageObject","inLanguage":"en","@id":"https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/#primaryimage","url":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","contentUrl":"https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png","width":1664,"height":1180,"caption":"Python3 Tuples Tutorial"},{"@type":"WebSite","@id":"https://jeevangupta.com/#website","url":"https://jeevangupta.com/","name":"JeevanGupta","description":"Knowledge means the world to me","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jeevangupta.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en"},{"@type":"Person","@id":"https://jeevangupta.com/#/schema/person/9a4452b34dbe59be55b345b6b6f865b8","name":"Jeevan Gupta","image":{"@type":"ImageObject","inLanguage":"en","@id":"https://jeevangupta.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/05c5595395e813505a1ce5ee4002f460?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/05c5595395e813505a1ce5ee4002f460?s=96&d=mm&r=g","caption":"Jeevan Gupta"},"sameAs":["https://www.jeevangupta.com","https://www.instagram.com/jeevan.r.gupta/","www.linkedin.com/in/jeevan-gupta"],"url":"https://jeevangupta.com/author/admin/"}]}</script>
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="4 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://jeevangupta.com/about-jeevan-gupta/","url":"https://jeevangupta.com/about-jeevan-gupta/","name":"Get to know Jeevan Gupta: Forte, Achievements, and More","isPartOf":{"@id":"https://jeevangupta.com/#website"},"primaryImageOfPage":{"@id":"https://jeevangupta.com/about-jeevan-gupta/#primaryimage"},"image":{"@id":"https://jeevangupta.com/about-jeevan-gupta/#primaryimage"},"thumbnailUrl":"https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg","datePublished":"2020-07-25T07:40:54+00:00","dateModified":"2023-09-28T18:00:03+00:00","description":"Here you will know Jeevan Gupta's skills set, work experience, education, accomplishment, and most importantly my capabilities.","inLanguage":"en","potentialAction":[{"@type":"ReadAction","target":["https://jeevangupta.com/about-jeevan-gupta/"]}]},{"@type":"ImageObject","inLanguage":"en","@id":"https://jeevangupta.com/about-jeevan-gupta/#primaryimage","url":"https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg","contentUrl":"https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg","width":1000,"height":800,"caption":"Jeevan Gupta"},{"@type":"WebSite","@id":"https://jeevangupta.com/#website","url":"https://jeevangupta.com/","name":"JeevanGupta","description":"Knowledge means the world to me","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jeevangupta.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en"}]}</script>
 
 <link rel="dns-prefetch" href="//app.convertful.com" />
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
@@ -67,6 +63,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
+<link rel="stylesheet" id="coblocks-block-fonts-css" href="//fonts.googleapis.com/css?family=HelveticaAbril+FatfaceFaustinaKarla%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAnton%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBarlow+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTajawal%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7C&#038;ver=3.1.8" media="all" />
 <link rel="stylesheet" id="simple-banner-style-css" href="https://jeevangupta.com/wp-content/plugins/simple-banner/simple-banner.css?ver=2.17.0" media="all" />
 <link rel="stylesheet" id="rt-fontawsome-css" href="https://jeevangupta.com/wp-content/plugins/the-post-grid/assets/vendor/font-awesome/css/font-awesome.min.css?ver=7.6.1" media="all" />
 <link rel="stylesheet" id="rt-tpg-css" href="https://jeevangupta.com/wp-content/plugins/the-post-grid/assets/css/thepostgrid.min.css?ver=7.6.1" media="all" />
@@ -80,14 +77,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script src="https://jeevangupta.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
 <script src="https://jeevangupta.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <script id="simple-banner-script-js-before">
-const simpleBannerScriptParams = {"version":"2.17.0","hide_simple_banner":"no","simple_banner_prepend_element":false,"simple_banner_position":"relative","header_margin":"","header_padding":"3%","simple_banner_z_index":false,"simple_banner_text":"I help businesses and individuals to achieve their Goals. <a href=\"https:\/\/www.jeevangupta.com\/work-with-jeevan\/\">Lets work together!<\/a>","pro_version_enabled":"","disabled_on_current_page":false,"debug_mode":"","id":2063,"disabled_pages_array":[],"is_current_page_a_post":true,"disabled_on_posts":"","simple_banner_disabled_page_paths":false,"simple_banner_font_size":"","simple_banner_color":"","simple_banner_text_color":"","simple_banner_link_color":"","simple_banner_close_color":"","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","wp_body_open_enabled":"","wp_body_open":true,"close_button_enabled":"","close_button_expiration":"","close_button_cookie_set":false,"current_date":{"date":"2024-04-15 09:54:20.541829","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2024-04-15 09:54:20.541838","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2024-04-15 09:54:20.541843","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":false,"simple_banner_remove_after_date":false,"simple_banner_insert_inside_element":false}
+const simpleBannerScriptParams = {"version":"2.17.0","hide_simple_banner":"no","simple_banner_prepend_element":false,"simple_banner_position":"relative","header_margin":"","header_padding":"3%","simple_banner_z_index":false,"simple_banner_text":"I help businesses and individuals to achieve their Goals. <a href=\"https:\/\/www.jeevangupta.com\/work-with-jeevan\/\">Lets work together!<\/a>","pro_version_enabled":"","disabled_on_current_page":false,"debug_mode":"","id":255,"disabled_pages_array":[],"is_current_page_a_post":false,"disabled_on_posts":"","simple_banner_disabled_page_paths":false,"simple_banner_font_size":"","simple_banner_color":"","simple_banner_text_color":"","simple_banner_link_color":"","simple_banner_close_color":"","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","wp_body_open_enabled":"","wp_body_open":true,"close_button_enabled":"","close_button_expiration":"","close_button_cookie_set":false,"current_date":{"date":"2024-04-14 21:38:27.964372","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2024-04-14 21:38:27.964382","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2024-04-14 21:38:27.964387","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":false,"simple_banner_remove_after_date":false,"simple_banner_insert_inside_element":false}
 </script>
 <script src="https://jeevangupta.com/wp-content/plugins/simple-banner/simple-banner.js?ver=2.17.0" id="simple-banner-script-js"></script>
 <script src="https://jeevangupta.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.15.5" id="smush-lazy-load-js"></script>
-<link rel="https://api.w.org/" href="https://jeevangupta.com/wp-json/" /><link rel="alternate" type="application/json" href="https://jeevangupta.com/wp-json/wp/v2/posts/2063" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jeevangupta.com/xmlrpc.php?rsd" />
-<link rel="shortlink" href="https://jeevangupta.com/?p=2063" />
-<link rel="alternate" type="application/json+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&#038;format=xml" />
+<link rel="https://api.w.org/" href="https://jeevangupta.com/wp-json/" /><link rel="alternate" type="application/json" href="https://jeevangupta.com/wp-json/wp/v2/pages/255" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jeevangupta.com/xmlrpc.php?rsd" />
+<link rel="shortlink" href="https://jeevangupta.com/?p=255" />
+<link rel="alternate" type="application/json+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fabout-jeevan-gupta%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jeevangupta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjeevangupta.com%2Fabout-jeevan-gupta%2F&#038;format=xml" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173075523-1"></script>
 <script>
@@ -384,7 +381,7 @@ background-size: cover;
 
 				}
 			</style></head>
-<body data-rsssl="1" class="post-template-default single single-post postid-2063 single-format-standard wp-embed-responsive rttpg rttpg-7.6.1 radius-frontend rttpg-body-wrap rttpg-flaticon is-style-modern has-header-1 has-footer-3 has-header-background has-footer-background has-featured-image singular">
+<body data-rsssl="1" class="page-template-default page page-id-255 wp-embed-responsive rttpg rttpg-7.6.1 radius-frontend rttpg-body-wrap rttpg-flaticon is-style-modern has-header-1 has-footer-3 has-header-background has-footer-background has-featured-image singular">
 <div id="page" class="site">
 <a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
 <header id="site-header" class="site-header header relative has-background" role="banner" itemscope itemtype="http://schema.org/WPHeader">
@@ -402,7 +399,7 @@ background-size: cover;
 <nav id="header__navigation" class="header__navigation" aria-label="Horizontal" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <div class="header__navigation-inner">
 <div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="primary-menu list-reset"><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="https://jeevangupta.com/api-integration-and-setup/">API Integration &#038; Setup</a></li>
-<li id="menu-item-2439" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-2439"><a href="https://jeevangupta.com/category/blog/python3-guide/">Python3<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+<li id="menu-item-2439" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2439"><a href="https://jeevangupta.com/category/blog/python3-guide/">Python3<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
 </a>
 <ul class="sub-menu">
 <li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://jeevangupta.com/python-programing-language/">Python Programming</a></li>
@@ -430,14 +427,14 @@ background-size: cover;
 </li>
 </ul>
 </li>
-<li id="menu-item-2153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2153"><a href="https://jeevangupta.com/category/about/">About<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
+<li id="menu-item-2153" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2153"><a href="https://jeevangupta.com/category/about/">About<svg role="img" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" /></svg>
 </a>
 <ul class="sub-menu">
-<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://jeevangupta.com/about-jeevan-gupta/">About Jeevan Gupta</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-255 current_page_item menu-item-260"><a href="https://jeevangupta.com/about-jeevan-gupta/" aria-current="page">About Jeevan Gupta</a></li>
 <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://jeevangupta.com/connect-with-jeevan-gupta/">Connect with Jeevan Gupta</a></li>
 </ul>
 </li>
-<li id="menu-item-2446" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-2446"><a href="https://jeevangupta.com/category/blog/">Blog</a></li>
+<li id="menu-item-2446" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2446"><a href="https://jeevangupta.com/category/blog/">Blog</a></li>
 </ul></div> </div>
 </nav>
 </div>
@@ -481,328 +478,91 @@ background-size: cover;
 </div>
 </header>
 <main id="site-content" class="site-content" role="main">
-<article class="post-2063 post type-post status-publish format-standard has-post-thumbnail hentry category-python-programming-language tag-python-tuples-beginner-guide tag-python3-tuple tag-python3-tuple-example tag-tuple-interview-question" id="post-2063">
-<div class="post__thumbnail">
-<img width="1664" height="1180" src="https://jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Python Tuples Tutorial" decoding="async" fetchpriority="high" /> </div>
-<header class="entry-header m-auto px">
-<h1 class="post__title entry-title m-0">Python Tuples Tutorial &#8211; Learning Python Tuples with Example</h1>
-<div class="post__meta--wrapper post__meta--single post__meta--top">
-<ul class="post__meta list-reset">
-<li class="post-author meta-wrapper">
-<span class="meta-icon">
-<span class="screen-reader-text">Post author</span>
-<svg role="img" aria-hidden="true" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<g fill="none">
-<g fill="currentColor">
-<path d="M16,18 L0,18 L0,16 C0,13.790861 1.790861,12 4,12 L12,12 C14.209139,12 16,13.790861 16,16 L16,18 Z M8,8 C5.790861,8 4,6.209139 4,4 C4,1.790861 5.790861,0 8,0 C10.209139,0 12,1.790861 12,4 C12,6.209139 10.209139,8 8,8 Z"></path>
-</g>
-</g>
-</svg>
-</span>
-<span class="meta-text">
-By <a href="https://jeevangupta.com/author/admin/">Jeevan Gupta</a> </span>
-</li>
-<li class="post-date">
-<a class="meta-wrapper" href="https://jeevangupta.com/python-tuples-tutorial-learning-python-tuples-with-example/">
-<span class="meta-icon">
-<span class="screen-reader-text">Post date</span>
-<svg role="img" aria-hidden="true" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m19 5h-1v-2h-2v2h-8v-2h-2v2h-1c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-12c0-1.1-.9-2-2-2zm0 14h-14v-10h14z" /></svg>
-</span>
-<span class="meta-text">
-<time datetime="2022-08-12T23:53:07+05:30">August 12, 2022</time> </span>
-</a>
-</li>
-</ul>
-</div>
-</header>
+<figure class="post__thumbnail">
+<img width="1000" height="800" alt="Jeevan Gupta" decoding="async" fetchpriority="high" data-src="https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1000" height="800" src="https://jeevangupta.com/wp-content/uploads/2021/10/image-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Jeevan Gupta" decoding="async" fetchpriority="high" /></noscript> </figure>
+<article class="post-255 page type-page status-publish has-post-thumbnail hentry" id="post-255">
 <div class="content-area__wrapper">
 <!-- google_ad_section_start -->
 <div class="content-area entry-content">
-<h2 class="has-tertiary-color has-text-color wp-block-heading"><strong>Common Python Tuples interview questions and doubts</strong></h2>
-<p>Hi there! Hope you are doing well. In this article, we will learn Python Tuples and will understand some Python Tuples concepts through examples. If you don’t know –  what is the Python programming language? its usage and benefits. I recommend you go through all about the Python programming language guide. If you are already familiar with Python and you just want to refresh the Python Tuples understanding you are at the right place. Moreover, this article will also help you get prepared with Python tuples interview questions.</p>
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<h2 class="wp-block-heading has-text-align-center" id="its-me-jeevan-gupta">~ It&#8217;s me, Jeevan Gupta. I Help You Achieve Your Goals. Let&#8217;s Work Together!~</h2>
+<p>Welcome to Jeevan Gupta&#8217;s World of Tech and Innovation!</p>
 <p></p>
-<p><strong>Without wasting any time let&#8217;s dive in.</strong></p>
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="726" src="https://www.jeevangupta.com/wp-content/uploads/2022/08/Python-Tuples-Tutorial-1024x726.png" alt class="wp-image-2076" /></figure><div class="code-block code-block-1" style="margin: 8px auto; text-align: center; display: block; clear: both;">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206435321699694" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5206435321699694" data-ad-slot="3184491608" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
-<div class="wp-block-coblocks-row coblocks-row-023212047305" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-tertiary-background-color has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter">
-<div class="wp-block-coblocks-column coblocks-column-023212049476" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
-<h3 class="wp-block-heading">Table of Content:</h3>
-<ul><li><a href="#tuples_point1">Tuples in Python</a></li><li><a href="#tuples_point2">Tuples vs List</a></li><li><a href="#tuples_point3">Create Tuples</a></li><li><a href="#tuples_point4">Accessing Tuples Items</a></li><li><a href="#tuples_point5">Updating a Tuples</a></li><li><a href="#tuples_point6">Unpack Tuples</a></li><li><a href="#tuples_point7">Loop through Tuples</a></li><li><a href="#tuples_point8">Join Tuples</a></li><li><a href="#tuples_point9">Delete Items from Tuples</a></li><li><a href="#tuples_point10">Multiply Tuples</a></li><li><a href="#tuples_point11">Tuples Methods</a></li><li><a href="#tuples_point12">Tuple Interview Questions</a></li></ul>
+<p>I&#8217;m Jeevan Gupta, but you can call me JG or simply G1 for short. I&#8217;m thrilled to have you here and eager to share more about myself with you.</p>
+<p></p>
+<h2 class="wp-block-heading has-text-align-center"><strong>About Me:</strong></h2>
+<p>I come from the beautiful shores of Goa, India, and my early years were spent at St. Andrew&#8217;s Institute in Vasco-da-Gama, a cherished convent school. My educational journey led me to achieve a Bachelor&#8217;s degree in Computer Science and Engineering (CSE) from <a href="https://www.klescet.ac.in/" target="_blank" rel="noreferrer noopener">Dr. M.S. Sheshgiri College of Engineering and Technology</a>, which is part of the renowned <a href="https://vtu.ac.in/" target="_blank" rel="noreferrer noopener">Visvesvaraya Technological University</a> in Karnataka, India.</p>
+<p></p>
+<p>Building upon this strong educational foundation, I pursued a Master&#8217;s degree in Computer Science (MCS) at <a href="https://www.asu.edu/" target="_blank" rel="noreferrer noopener">Arizona State University</a>. All the while, I managed a dynamic role as a Senior Software Engineer at <a href="https://www.bayleafdigital.com/" target="_blank" rel="noreferrer noopener">Bay Leaf Digital (BLD)</a>, a company based in Dallas, Texas, with a focus on Digital Marketing and a vision for SaaS excellence.</p>
+<p></p>
+<p>With over four years of professional experience in software engineering, I have consistently demonstrated my ability to design, implement, and manage innovative software applications. My true passion in my career lies in tackling complex challenges head-on. I find immense satisfaction in problem-solving, and the end result, no matter how demanding the journey, fuels my motivation and sense of accomplishment.</p>
+<p></p>
+<p>Throughout my career, I&#8217;ve had the privilege of working on diverse sub-projects that have honed my skills in full-stack development, data pipeline engineering, and process automation. Notably, I&#8217;ve optimized code to reduce technical debt, engineered data pipelines to enhance data availability, and addressed performance bottlenecks in SaaS applications through modular, container-based, and component-based development.</p>
+<p></p>
+<p>I&#8217;m a dedicated problem solver who relishes the opportunity to dig into technical challenges, identify root causes, and employ cutting-edge technologies to find solutions. My affinity for writing code, particularly in Python, drives me to create, scale, and optimize complex systems. Proficient in translating stakeholder requirements into actionable technical objectives, I excel in project management, product engineering, proof of concepts (POC), technical research, and rapid adaptation to emerging technologies. My unwavering belief in the transformative power of programming fuels my commitment to improving people&#8217;s lives.</p>
+<p></p>
+<p></p>
+<div class="wp-block-group has-primary-background-color has-background mt-0 is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h4 class="wp-block-heading has-text-align-center">Explain like I&#8217;m five&#8230; what do you do?</h4>
+<h3 class="wp-block-heading has-text-align-center">&#8220;I’m making your ‘today’ automated and your ‘future’ magical.&#8221;</h3>
+<p class="has-text-align-center">&#8211; Jeevan Gupta</p>
 </div></div>
-</div></div>
-<h2 class="wp-block-heading" id="tuples_point1"><strong>What are Python Tuples?</strong></h2>
-<p>The Tuple is a data structure in Python, with a datatype of “<strong>tuple</strong>”. The Tuples is an immutable(i.e. unchangeable) ordered sequence of data. Tuple elements/items are ordered, meaning each element has a defined position that will not change. Immutable means that once the tuple is created, we cannot change, add or remove items to or from the Tuple.</p>
+<figure class="wp-block-image size-large"><img decoding="async" width="943" height="1024" alt data-src="https://jeevangupta.com/wp-content/uploads/2023/09/passport-size-943x1024.png" class="wp-image-2642 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img decoding="async" width="943" height="1024" src="https://jeevangupta.com/wp-content/uploads/2023/09/passport-size-943x1024.png" alt="" class="wp-image-2642"/></noscript></figure>
+<h2 class="wp-block-heading">Core Strengths:</h2>
+<ol class="has-tertiary-background-color has-background">
+<li><strong>Global Collaboration</strong>: Proficient in working seamlessly with international teams spanning various time zones, fostering effective global collaboration.</li>
+<li><strong>Full-Stack Expertise</strong>: Seasoned in engineering and enhancing features and functionalities for SaaS products, ensuring comprehensive full-stack development.</li>
+<li><strong>Process Automation</strong>: Adept in automating processes, from OAuth authentication and token management to Robotic Process Automation (RPA) using UiPath and web scraping techniques.</li>
+<li><strong>Python Mastery</strong>: Skilled in crafting intricate, efficient, and reusable Python algorithms (code) to address complex challenges.</li>
+<li><strong>Data Pipeline Excellence</strong>: Experienced in the development and implementation of Extract, Transform, Load (ETL) and Extract, Load, Transform (ELT) data pipelines, ensuring data flows smoothly.</li>
+<li><strong>API Integration</strong>: Proficient in seamlessly integrating third-party APIs and developing streamlined processes for efficient API usage.</li>
+<li><strong>Web Technologies</strong>: Highly competent in JavaScript, jQuery, CSS3, NodeJS, and HTML5, enabling the creation of dynamic web solutions.</li>
+<li><strong>Project Management</strong>: Effective project management skills, encompassing team leadership, guidance, and monitoring, to ensure successful project outcomes.</li>
+<li><strong>Stakeholder Interaction</strong>: Skillful in engaging with stakeholders, understanding product requirements, converting them into precise technical scopes, estimating project timelines, and overseeing development and maintenance.</li>
+</ol>
 <p></p>
-<p>A Python tuple is a collection of data/items written with a round bracket separated by commas. A Tuple can hold data types like integers, strings, floats, and objects. It can also hold different data types at the same time.</p>
-<p> <br>Each data in the tuple is referred to as elements or items which are indexed. The tuple index count starts from 0. Python Tuple also allows duplicate elements, since each element will have its own index position and credibility. Tuples are created using <strong>round brackets () or tuple()</strong> Python constructor.</p>
-<p></p>
-<h2 class="wp-block-heading" id="tuples_point2"><strong>Difference between Python Tuples and Python List?</strong></h2>
-<figure class="wp-block-table is-style-regular"><table><tbody><tr><td><strong>Tuples</strong></td><td><strong>List</strong></td></tr><tr><td>Immutable</td><td>Mutable</td></tr><tr><td>More memory efficient&nbsp;</td><td>Less memory efficient</td></tr><tr><td>Items are closed by a round bracket&nbsp;</td><td>Items are closed by a square bracket&nbsp;</td></tr><tr><td>Smaller size thus faster</td><td>Slight bigger in size hence slightly slower</td></tr></tbody></table></figure>
-<h2 class="wp-block-heading" id="tuples_point3"><strong>How to create and get the length of Python tuples?</strong></h2>
-<p>A Tuple can be created using a round bracket or by using a <strong>tuple()</strong> constructor.&nbsp;</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#tuple creation using ()
-state_tuple1 = ("Goa","Kerala","Panjab","Delhi")
-print(state_tuple1)
- 
-#tuple creation using tuple() constructor
-state_tuple2 = tuple(("Karnataka","Gujarat","Tamilnadu","Uttrakhand"))
-print(state_tuple2)
- 
-#Multi data type tuple
-multi_data_type_tuple = ("Karnataka",8,"Uttrakhand",98.3,{"Goa"})
-print(multi_data_type_tuple)</pre>
-<p></p>
-<p>The length of a Tuple can be found by using the len() built-in function.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
-print(len(state_tuple))</pre>
-<h2 class="wp-block-heading" id="tuples_point4"><strong>How to access Python tuples?</strong></h2>
-<h3 class="wp-block-heading">1. <strong>Positive indexing</strong></h3>
-<p>As we mentioned above Tuple items are indexed i.e. each element of the Tuple has a unique index number. Using this index number (positive number) a specific item from the Tuple can be retrieved. This method is also known as positive indexing i.e. accessing the Tuple from the beginning. So 0 will refer to the first item, 2 will refer to the third item, and so on.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
-print(state_tuple[0])
-print(state_tuple[2])</pre>
-<h3 class="wp-block-heading">2. <strong>Negative indexing</strong></h3>
-<p>A Tuple can also be accessed using negative indexing i.e. negative number. Negatives here indicate that a tuple will be accessed from the end. NOTE: In negative indexing, numbers start from -1, unlike 0 in positive indexing. So, here -1 means the last item, and -2 means the second last item.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Panjab","Delhi")
-print(state_tuple[-1])
-print(state_tuple[-2])</pre>
-<p></p>
-<h3 class="wp-block-heading">3. <strong>Range of Indexes</strong></h3>
-<p>This method is used to access a range of tuple items at once, unlike the above method where we access one item at a time. To get a range of values one can set the start to one index number and the end to another index number.</p>
-<p></p>
-<p>In range indexing access methods, if you miss the start index then you will get the range from the start of the tuple to the specified end index number. If you miss out on the end index then you will get a range from the start index number till the end of the tuple.&nbsp;</p>
-<p></p>
-<p>NOTE: In the positive range index, you will get items from startIndex to endIndex-1.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Positive range index example
-state_tuple = ("Goa","Kerala","Panjab","Delhi","Karnataka","Gujarat","Tamilnadu")
-print(state_tuple[2:4])
-print(state_tuple[:2])
-print(state_tuple[4:])</pre>
-<p>NOTE: In the negative range index, you will get items from -ve startIndex to -ve endIndex-1.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Negative range index example
-state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
-print(state_tuple[-4:-2])
-print(state_tuple[:-2])
-print(state_tuple[-4:])</pre>
-<h2 class="wp-block-heading" id="tuples_point5"><strong>How to update Python Tuples?</strong></h2>
-<h3 class="wp-block-heading"><strong>Change tuples values</strong>:</h3>
-<p>Interview question &#8211; can you change the tuple values? If Yes, how?</p>
-<p>As we discussed above, tuples are immutable or unchangeable. So once a tuple is created we can&#8217;t change its value. But there is one way to do it.</p>
-<p>First, convert the tuple to a list. Then change the value in the list. Finally, convert the updated list back to the tuple.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Update Tuple
-state_tuple = ("Goa","Kerala","Karnataka")
-state_list = list(state_tuple)
-state_list[1] = "Gujarat"
-state_tuple = tuple(state_list)
-print(state_tuple)</pre>
-<h3 class="wp-block-heading"><strong>Add items to tuples:</strong></h3>
-<p>For this too, you can use the above-mentioned methods. First, convert a tuple to a list, then use the append() method to add value to the list. Finally, convert back the list to the tuple.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Add item to Tuple Example
-state_tuple = ("Goa","Kerala","Karnataka")
-state_list = list(state_tuple)
-state_list.append("Delhi")
-state_tuple = tuple(state_list)
-print(state_tuple)</pre>
-<p>Hold on, there is one more way. Tuple does not allow you to add items to tuple but Python Tuple does allow you to add tuple to tuple.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Gujarat","Karnataka")
-new_tuple = ("Kerala","Punjab")
-state_tuple = state_tuple + new_tuple
-print(state_tuple)</pre>
-<h4 class="wp-block-heading">Interview question &#8211; can we add value to a tuple?&nbsp;</h4>
-<p>Yes, we can do it in two ways, first by converting the tuple to a list and then adding value. Second, by creating a tuple with a new value and then adding this tuple to the existing tuple.</p>
-<p></p>
-<h2 class="wp-block-heading" id="tuples_point6"><strong>How to unpack python tuples?</strong></h2>
-<p>First and foremost, what is unpacking in Python? An operation to extract value from an iterable (tuple or list) and assign it to variables. The variables should also be in lists or tuples. There should be the same number of variables or one should use * to handle unassigned values.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#packing a tuple
-state_tuple = ("Goa","Gujarat","Karnataka")
-print(state_tuple)
-#unpacking a tuple
-(GA,GJ,KA) = state_tuple
-print(GA,GJ,KA)</pre>
-<h2 class="wp-block-heading" id="tuples_point7"><strong>How to loop through Python tuples?</strong></h2>
-<p>As we know we can use a <strong>for loop or while loop</strong> to iterate (loop) through any iterable. So, Tuple items can also be accessed using <strong>for loop and a while loop.</strong></p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#for loop example
-state_tuple = ("Goa","Kerala","Punjab","Delhi")
-print(state_tuple)
-for state in state_tuple:
-   print(state)
- 
-print("\n")
- 
-#for loop using tuple index
-state_tuple = ("Goa","Kerala","Punjab","Delhi")
-print(state_tuple)
-for i in range(len(state_tuple)):
-   print(state_tuple[i])
- 
-#while loop using tuple index
-state_tuple = ("Goa","Kerala","Punjab","Delhi")
-print(state_tuple)
-i=0
-while i &lt; len(state_tuple):
-   print(state_tuple[i])
-   i+=1
-</pre>
-<h2 class="wp-block-heading" id="tuples_point8"><strong>How to join Python tuples? </strong></h2>
-<p>We have already used this operation above in adding an item to the tuple. So basically two or more tuples can be joined using the + operator.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#Join Tuple example
-state_tuple1 = ("Goa","Gujarat","Karnataka")
-state_tuple2= ("Kerala","Punjab")
-state_tuple = state_tuple + new_tuple
-print(state_tuple)</pre>
-<h2 class="wp-block-heading" id="tuples_point9"><strong>How to delete or remove items from Tuples?</strong></h2>
-<p>As we know tuple is immutable, which means we can&#8217;t add an item to a tuple nor we can delete an item from the tuple. But there are several ways to do it.&nbsp;</p>
-<h3 class="wp-block-heading"><strong>Using slicing</strong>:</h3>
-<p>We can use range index (slicing) on the tuple and then merge the tuple by using the <strong>+</strong> operator.</p>
-<p></p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#slicing method to remove item from tuple
-state_tuple = ("Goa","Gujarat","Karnataka","Kerala","Punjab","Delhi")
-new_tuple = state_tuple[:3] + state_tuple[4:]
-print(new_tuple)</pre>
-<h3 class="wp-block-heading"><strong>Converting to List</strong>:</h3>
-<p>Here we first convert tuples to lists, then we use the remove() method to remove items from the list. There are other ways to remove items from the list you can use anything you want. After removing an item from the list, convert it back to the tuple.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#removing item from tuple by converting it to list
-state_tuple = ("Goa","Gujarat","Karnataka","Kerala","Punjab","Delhi")
-state_list = list(state_tuple)
-state_list.remove("Karnataka")
-state_tuple = tuple(state_list)
-print(state_tuple)</pre>
-<h2 class="wp-block-heading" id="tuples_point10"><strong>How do multiply Tuples?</strong></h2>
-<p>Multiplying a tuple basically means repeating each item of a tuple by N number of times.</p>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#removing item from tuple by converting it to list
-state_tuple = ("Goa","Gujarat","Punjab","Delhi")
-state_tuple_2X = state_tuple * 2
-print(state_tuple_2X)</pre>
-<p></p>
-<h2 class="wp-block-heading" id="tuples_point11"><strong>Tuples Methods:</strong></h2>
-<figure class="wp-block-table is-style-regular"><table><tbody><tr><td><strong>Method</strong></td><td><strong>Explanation</strong></td></tr><tr><td>count()</td><td>Return the number of times a species item present in a tuple</td></tr><tr><td>index()</td><td>Return the position of the passed item in the parameter</td></tr></tbody></table></figure>
-<h2 class="wp-block-heading" id="tuples_point12"><strong>Tuples Interview Questions</strong></h2>
-<div class="wp-block-coblocks-row coblocks-row-71311479453" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter" style="background-color:#fbeed2">
-<div class="wp-block-coblocks-column coblocks-column-713114715780" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
-<h3 class="wp-block-heading">How to multiply a number with each tuple of items?</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#multiply a number with value of tuple
-number_tuple = (2, 5, 8, 1, 5, 3)
-number = 2
-result_tuple = tuple(v*number for v in number_tuple)
-print(result_tuple)</pre>
-<p></p>
-<h3 class="wp-block-heading">How to multiply all integer values of a tuple?</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#multiply all values of tuple
-import math
-number_tuple = (2, 5, 8, 1, 5, 3)
-result = math.prod(number_tuple)
-print(result)</pre>
-<h3 class="wp-block-heading">How to add a number to each tuple item?</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#add a number with value of tuple
-number_tuple = (2, 5, 8, 1, 5, 3)
-number = 5
-result_tuple = tuple(v+number for v in number_tuple)
-print(result_tuple)
- 
- 
-#get sum of all tuple value
-number_tuple = (2, 5, 8, 1, 5, 3)
-result = sum(number_tuple)
-print(result)</pre>
-<h3 class="wp-block-heading">Check if Items are present/exist in Tuple</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
-search_item = "Goa"
-if search_item in state_tuple:
-   print("Value present in Tuple")
-else:
-   print("Value not found in Tuple")</pre>
-<p></p>
-<h3 class="wp-block-heading">Create and Access a nested tuple</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#nested tuple
-state_tuple = (("Goa","Orange"),"Kerala",("Delhi","DL"),"Karnataka",("Gujarat","GJ",129),"Tamilnadu")
- 
-#accessing nested tuple
-print(state_tuple[0][0])
-print(state_tuple[2][1])
-print(state_tuple[4][2])</pre>
-<h3 class="wp-block-heading">Reverse item of tuple</h3>
-<pre class="EnlighterJSRAW" data-enlighter-language="python" data-enlighter-theme data-enlighter-highlight data-enlighter-linenumbers data-enlighter-lineoffset data-enlighter-title data-enlighter-group>#reverse item of tuple using slicing
-state_tuple = ("Goa","Kerala","Punjab","Delhi","Karnataka","Gujarat","Tamilnadu")
-print(state_tuple[::-1])</pre>
-<p></p>
-<p>Above are the few interview questions that an interviewer asks. I will suggest you practice some more interview (medium and tough level) questions, you can take a look at these <a href="https://devenum.com/python-25-tuple-programming-interview-questions-and-answers/" target="_blank" rel="noreferrer noopener">25 Tuple questions</a>. Another important thing is if you are preparing for your upcoming interview you should also refresh your knowledge on some <a href="https://www.python-ds.com/python-interview-questions" target="_blank" rel="noreferrer noopener">basic python interview questions</a>. </p>
-</div></div>
-</div></div>
-<p></p>
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-<p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#15a300" class="has-inline-color">Hope I have made it easy to understand the Python tuple and its basic operations.</mark> <mark style="background-color:rgba(0, 0, 0, 0);color:#15a300" class="has-inline-color">If you Like this article and think it was easy to understand and might help someone you know do share it with them. Thank You! See you soon.</mark></strong></p>
-<p></p>
-<div class="wp-block-columns is-layout-flex wp-container-3 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
-<p style="font-size:15px">If you have any questions or comments feel free to reach me at.</p>
+<p class="is-style-success"><strong>I enjoy meeting new people and hearing new perspectives.</strong> <a href="https://jeevangupta.com/connect-with-jeevan-gupta/"><strong>Reach out to me</strong></a><strong> if you want to talk to me about emerging tech, software products, technical problems, or badminton.</strong></p>
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<h2 class="wp-block-heading" id="employment">Current Role:</h2>
+<div class="wp-block-coblocks-row coblocks-row-625155736352" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-no-padding has-no-margin is-stacked-on-mobile has-medium-gutter">
+<div class="wp-block-coblocks-column coblocks-column-625155737752" style="width:100%"><div class="wp-block-coblocks-column__inner has-background has-no-padding has-no-margin" style="background-color:#e9fdf7">
+<div class="wp-block-columns is-layout-flex wp-container-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<h3 class="wp-block-heading" id="senior-software-engineer">Lead <strong>Software Engineer</strong></h3>
+<h4 class="wp-block-heading"><a aria-label="undefined (opens in a new tab)" href="https://www.bayleafdigital.com" target="_blank" rel="noreferrer noopener">Bay Leaf Digital</a></h4>
 </div>
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-coblocks-social wp-block-coblocks-social-profiles has-colors"><ul><li>
-<a href="https://www.instagram.com/jeevan.r.gupta" class="wp-block-button__link wp-block-coblocks-social__button wp-block-coblocks-social__button--instagram     has-padding" title="Instagram" style="border-radius: 40px;">
-<span class="wp-block-coblocks-social__icon" style></span>
-<span class="wp-block-coblocks-social__text">Instagram</span>
-</a>
-</li><li>
-<a href="https://www.linkedin.com/in/jeevan-gupta" class="wp-block-button__link wp-block-coblocks-social__button wp-block-coblocks-social__button--linkedin     has-padding" title="Linkedin" style="border-radius: 40px;">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40%">
+<p style="font-size:15px">(<mark style="background-color:rgba(0, 0, 0, 0);color:#605e5e" class="has-inline-color">2019 &#8211; present</mark>)</p>
+</div>
+</div>
+<p class="is-style-default">In my role, I lead SaaS product technical scope breakdown, scope estimation, team guiding/mentoring, product engineering, full stack functionality/feature development, data pipeline development, data warehousing solution, technical debt reduction, process automation, and code refactoring/optimization within a dynamic Scrum Development Process.</p>
+</div></div>
+</div></div>
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="wp-block-columns is-layout-flex wp-container-7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<h5 class="wp-block-heading" id="get-to-know-more-about-me-on"><strong>Let&#8217;s Connect on</strong> -></h5>
+</div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%"><div class="wp-block-coblocks-social wp-block-coblocks-social-profiles is-style-icon-and-text has-text-align-center has-colors has-button-size-med"><ul><li>
+<a href="https://www.linkedin.com/in/Jeevan-gupta/" class="wp-block-button__link wp-block-coblocks-social__button wp-block-coblocks-social__button--linkedin     has-padding" title="Linkedin" style="border-radius: 29px;" target="_blank" rel="noopener noreferrer">
 <span class="wp-block-coblocks-social__icon" style></span>
 <span class="wp-block-coblocks-social__text">Linkedin</span>
 </a>
-</li></ul></div>
+</li></ul></div></div>
+</div>
+<div class="wp-block-group alignfull has-primary-background-color has-background is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading has-text-align-left">Entrepreneur Spirit</h3>
+<p class="has-text-align-left">To me, entrepreneurship means having an innovative mindset, creativity, and the ability to bring positive change to society. It&#8217;s not just about owning a business; it&#8217;s about having a vision and the determination to make it a reality. Whether you&#8217;re an entrepreneur in business or spirit, it&#8217;s about making a difference.</p>
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<h3 class="wp-block-heading">The Evolving Face of Entrepreneurship:</h3>
+<p>In my view, entrepreneurs are not exclusively business owners. This conventional definition no longer fully encapsulates the spirit of entrepreneurship. Today, anyone who embodies an innovative mindset, creative thinking, and the drive to create positive change can rightfully be called an entrepreneur. It is a state of mind that is characterized by a willingness to explore new possibilities, challenge the established order, and take calculated risks in order to make a difference.</p>
 <p></p>
-</div>
-</div>
-<p class="has-quaternary-color has-secondary-background-color has-text-color has-background"><strong>Checkout out other python concept covered in <a href="https://www.jeevangupta.com/python-programing-language/">Python Tutorial</a></strong></p>
-
-<p class="dvk-social-sharing ss-icon-size-32">
-<span class="ss-ask">Share this post: </span>
-<a rel="external nofollow" class="ss-twitter" href="https://twitter.com/intent/tweet/?text=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example&url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" target="_blank">
-<span class="ss-icon ss-icon-twitter"></span>
-<span class="ss-text">on Twitter</span>
-</a> <a rel="external nofollow" class="ss-facebook" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&p[title]=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example" target="_blank">
-<span class="ss-icon ss-icon-facebook"></span>
-<span class="ss-text">on Facebook</span>
-</a> <a rel="external nofollow" class="ss-googleplus" href="https://plus.google.com/share?url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F" target="_blank">
-<span class="ss-icon ss-icon-googleplus"></span>
-<span class="ss-text">on Google+</span>
-</a> <a rel="external nofollow" class="ss-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fjeevangupta.com%2Fpython-tuples-tutorial-learning-python-tuples-with-example%2F&title=Python+Tuples+Tutorial+%E2%80%93+Learning+Python+Tuples+with+Example" target="_blank">
-<span class="ss-icon ss-icon-linkedin"></span>
-<span class="ss-text">on LinkedIn</span>
-</a> </p>
-
-<div class="conv-place conv-place_after_post"></div>
+<p>So, whether you&#8217;re steering your own venture or contributing your entrepreneurial spirit within an existing organization, your ability to innovate, inspire change, and leave a positive mark on society is what truly defines you as an entrepreneur.</p>
+</div></div>
 </div>
 <!-- google_ad_section_end -->
-<div class="post__meta--wrapper post__meta--single post__meta--single-bottom">
-<ul class="post__meta list-reset">
-<li class="post-tags meta-wrapper">
-<span class="meta-icon">
-<span class="screen-reader-text">Tags</span>
-<svg role="img" aria-hidden="true" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m11.25745 17.21235c-.57615.5723-1.50585.5723-2.0781 0l-8.0957-7.59275c-.45315-.4248-.9922-1.229-1.03125-1.84815-.10355-1.6753-.0303-4.8833.0205-6.5835.01855-.6206.53905-1.14015 1.16015-1.1538 2.17285-.05125 6.77635-.105 7.2041.32325l8.91405 8.0654c.57225.5728.0537 2.0215-.52245 2.5977zm-7.09375-14.7153c-.4863-.4839-1.2715-.4839-1.75685 0-.48435.4863-.48435 1.2705 0 1.75535.48635.4849 1.2715.4849 1.75685 0 .4844-.48485.4844-1.2695 0-1.75535z" /></svg>
-</span>
-<span class="meta-text">
-<a href="https://jeevangupta.com/tag/python-tuples-beginner-guide/" rel="tag">Python tuples beginner guide</a>, <a href="https://jeevangupta.com/tag/python3-tuple/" rel="tag">python3 tuple</a>, <a href="https://jeevangupta.com/tag/python3-tuple-example/" rel="tag">python3 tuple example</a>, <a href="https://jeevangupta.com/tag/tuple-interview-question/" rel="tag">tuple interview question</a> </span>
-</li>
-</ul>
-</div>
 </div>
 </article>
-<div class="code-block code-block-3" style="margin: 8px auto; text-align: center; display: block; clear: both;">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206435321699694" crossorigin="anonymous"></script>
-<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5206435321699694" data-ad-slot="3476824009"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
 </main>
 <footer id="colophon" class="site-footer site-footer--3 has-background">
 <div class="site-footer__inner max-w-base lg:max-w-wide m-auto px">
@@ -820,7 +580,7 @@ print(state_tuple[::-1])</pre>
 <span class="footer-navigation__title">About Us</span>
 <div class="menu-about-us-container"><ul id="menu-about-us" class="footer-menu list-reset"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://jeevangupta.com/connect-with-jeevan-gupta/">Connect with Jeevan Gupta</a></li>
 <li id="menu-item-1652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1652"><a href="https://jeevangupta.com/work-with-jeevan/">Work with Jeevan</a></li>
-<li id="menu-item-1653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1653"><a href="https://jeevangupta.com/about-jeevan-gupta/">About Jeevan Gupta</a></li>
+<li id="menu-item-1653" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-255 current_page_item menu-item-1653"><a href="https://jeevangupta.com/about-jeevan-gupta/" aria-current="page">About Jeevan Gupta</a></li>
 <li id="menu-item-2144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2144"><a rel="privacy-policy" href="https://jeevangupta.com/jeevangupta-privacy-policy/">Privacy Policy</a></li>
 <li id="menu-item-2160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160"><a href="https://jeevangupta.com/terms-of-use-jeevangupta/">Terms of Use</a></li>
 </ul></div> </nav>
@@ -853,7 +613,7 @@ Jeevan Gupta - Have a lovely day! </span>
 </footer>
 </div>
 <div class="simple-banner simple-banner-text" style="display:none !important"></div><style id="core-block-supports-inline-css">
-.wp-container-3.wp-container-3{flex-wrap:nowrap;}
+.wp-container-4.wp-container-4,.wp-container-7.wp-container-7{flex-wrap:nowrap;}
 </style>
 <script src="https://jeevangupta.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.8" id="coblocks-animation-js"></script>
 <script src="https://jeevangupta.com/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiper.js?ver=3.1.8" id="coblocks-tiny-swiper-js"></script>
@@ -866,7 +626,7 @@ var GoText = {"searchLabel":"Expand search field"};
 </script>
 <script src="https://jeevangupta.com/wp-content/themes/go/dist/js/frontend.min.js?ver=1.3.2" id="go-frontend-js"></script>
 <script id="convertful-api-js-extra">
-var convPlatformVars = {"postType":"post","categories":["python-programming-language"],"tags":["python-tuples-beginner-guide","python3-tuple","python3-tuple-example","tuple-interview-question"],"ajax_url":"https:\/\/jeevangupta.com\/index.php?rest_route=\/convertful\/v2\/","userRoles":["guest"]};
+var convPlatformVars = {"postType":"page","categories":[],"tags":[],"ajax_url":"https:\/\/jeevangupta.com\/index.php?rest_route=\/convertful\/v2\/","userRoles":["guest"]};
 </script>
 <script type="text/javascript" id="convertful-api" src="https://app.convertful.com/Convertful.js?owner=56958" async="async"></script><script src="https://jeevangupta.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=mgzH1bPsM/tBmU7" id="enlighterjs-js"></script>
 <script id="enlighterjs-js-after">
@@ -875,5 +635,5 @@ var convPlatformVars = {"postType":"post","categories":["python-programming-lang
 <script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script>
-<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'8855b89229d285eb',t:'MTcxNTk3MTA3MC4wNjYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'885c1f7c5f634826',t:'MTcxNjAzODE5OS45ODUwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html>
